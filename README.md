@@ -28,6 +28,9 @@ server.port=8888
 spring.application.name=config-server
 spring.cloud.config.server.git.uri=https://github.com/sistema-educativo-microservicios-v1/config-server1.git
 spring.cloud.config.server.git.clone-on-start=true
+```
+
+---
 
 ##  Estructura del proyecto
 
@@ -41,6 +44,12 @@ config-server/
 │           └── application.properties
 ├── pom.xml
 └── README.md
+
+##  Ejecución
+
+Para ejecutar el servidor de configuración:
+mvn spring-boot:run
+
 
 ##  Autores
 
