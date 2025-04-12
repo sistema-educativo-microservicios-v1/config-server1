@@ -34,7 +34,7 @@ spring.cloud.config.server.git.clone-on-start=true
 
 ##  Estructura del proyecto
 
-config-server/
+```config-server/
 ├── src/
 │   └── main/
 │       ├── java/
@@ -44,6 +44,7 @@ config-server/
 │           └── application.properties
 ├── pom.xml
 └── README.md
+```
 
 ##  Ejecución
 
